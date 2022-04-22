@@ -24,7 +24,7 @@ In this repository, we show the experiments of Mandarin Wav2vec2.0(base) pre-tra
 | @85k updates                        | 6.1 | 6.7  |
 | @130k updates                       | 5.8 | 6.4  |
 | @250k updates                       | 5.6 | 6.3  |
-| @315 updates                        | 5.1 | 5.6  |
+| @315k updates                        | 5.1 | 5.6  |
 | @376k updates                       | 5.2 | 5.7  |
 | @396k updates*                      | 5.2 | 5.8  |
 | Wav2vec2.0(English)                 | 6.2 | 6.7  |
