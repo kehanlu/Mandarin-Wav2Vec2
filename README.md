@@ -1,4 +1,4 @@
-# Madarin-Wav2Vec2
+# Mandarin-Wav2Vec2
 
 In this repository, we show the experiments of Mandarin Wav2vec2.0(base) pre-trained on AISHELL-2 dataset. The results show that pre-trained the wav2vec2.0 models on specific languages from scratch can boost the performance of downstream tasks(e.g. ASR) compared to cross-lingual scenarios. We plan to release the pre-trained weight in the future.
 
