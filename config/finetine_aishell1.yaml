@@ -5,13 +5,13 @@ freeze_param: [
 ]
 
 input_size: 2048
-encoder: espnet2.asr.encoder.wav2vec2_encoder:wav2vec2_encoder
+encoder: wav2vec2
 encoder_conf:
     output_size: 768
     normalize_before: true
     freeze_finetune_updates: 5000
-    w2v_url: /path/to/mandarin_wav2vec2.pt
-    w2v_dir_path: ./downloads/wav2vec_pretrained_models
+    w2v_url: https://huggingface.co/kehanlu/mandarin-wav2vec2-fairseq/resolve/main/mandarin_wav2vec2_fairseq.pt
+    w2v_dir_path: ./downloads/wav2vec_pretrained_models/mandarin_wav2vec2_fairseq.pt
 
 decoder: transformer
 decoder_conf:
