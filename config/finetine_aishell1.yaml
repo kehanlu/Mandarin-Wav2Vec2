@@ -5,7 +5,7 @@ freeze_param: [
 ]
 
 input_size: 2048
-encoder: espnet2.asr.encoder.hank.wav2vec2_encoder:wav2vec2_encoder
+encoder: espnet2.asr.encoder.wav2vec2_encoder:wav2vec2_encoder
 encoder_conf:
     output_size: 768
     normalize_before: true
