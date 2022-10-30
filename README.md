@@ -1,6 +1,6 @@
 # Mandarin-Wav2Vec2
 
-In this repository, we show the Mandarin version of wav2vec2.0(base) pre-trained on AISHELL-2 dataset. This is also the pre-trained model used in “A context-aware knowledge transferring strategy for CTC-based ASR”
+In this repository, we show the Mandarin version of wav2vec2.0(base) pre-trained on AISHELL-2 dataset. This is also the pre-trained model used in “[A context-aware knowledge transferring strategy for CTC-based ASR(Lu and Chen, 2022)](https://arxiv.org/abs/2210.06244)”
 
 
 ## Pre-trained model
@@ -10,9 +10,9 @@ The model is pre-trained using Fairseq toolkit on the AISHELL-2 dataset and eval
 | ----- | -------- | ----------- |
 | mandarin-wav2vec2 | [download](https://huggingface.co/kehanlu/mandarin-wav2vec2-fairseq/resolve/main/mandarin_wav2vec2_fairseq.pt) | kehanlu/mandarin-wav2vec2 |
 
-Result: 
+### Result:
 
-| AISHELL-1 | dev | test |
+| AISHELL-1(CER) | dev | test |
 | - | - | - | 
 | vanilla w2v2-CTC | 4.85 | 5.13 |
 
@@ -24,7 +24,7 @@ ESPNET2  fine-tuning config: [config/finetine_aishell1.yaml](https://github.com/
 
 
 ### Use with Huggingface
-For simple usage, we convert the fairseq/espnet checkpoint into huggingface Transformers version by `transformers.models.wav2vec2.convert_wav2vec2_original_pytorch_checkpoint_to_pytorch`
+For simple usage, we convert the fairseq/espnet checkpoints into huggingface Transformers version using `transformers.models.wav2vec2.convert_wav2vec2_original_pytorch_checkpoint_to_pytorch`
 
 #### Pre-trained model
 
